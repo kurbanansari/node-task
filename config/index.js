@@ -17,7 +17,7 @@ const swaggerDefinition = {
       description: 'Endpoints to test the Node Task',
     },
     // host: `localhost:${process.env.PORT || 3000}`,
-    host: `https://send-mail-techop.herokuapp.com`,
+    host: `send-mail-techop.herokuapp.com`,
     basePath: '/',
     securityDefinitions: {
       bearerAuth: {
